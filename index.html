@@ -1,53 +1,75 @@
-<html><head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-<title>A Pill Bug's Life </title><link rel="stylesheet" type="text/css" href="phil.css">
+  <title>A Pill Bug's Life </title><link rel="stylesheet" type="text/css" href="phil.css">
 </head>
+<body>
+
 <div id="phildiv">
   <h2>A Pill Bug's Life</h2>
-  <p>Once upon a time, there was a pill bug named Phil.<br> Don't be alarmed! Phil is a little shy and appears perpetually startled!</p>
-  <button id="appear">Say "Hi, Phil"!</button>
+  <p>Once upon a time, there was a pill bug named Phil.</p>
+
+  <button id="appear">Hi, Phil!
+  </button>
+
   <br>
   <br>
   <img src="img/phil.png" width=200px id="phil">
 </div>
 
 
-<div id="pillappeardiv">
-  <p>One day, Phil meets another pill bug.</p>
-  <button id="whoisthat">Who's that?</button>
+<div id="seconddiv">
+  <p id="iamphil">Oh! Hi! I'm Phil the pill bug!</p>
+  <img src="img/phil.png" width=200px id="phil2"> 
   <br>
-  <br> 
-  <img src="img/phil.png" width=200px id="phil2">
-  <img src="img/wordbubble.png" align=center width=200px id="wordbubble">
-  <img src="img/pill.png" width=200px id="pill"><br>
-  <button id="but">But...?</button></div>
-
-<div id="phildissolvediv">
-  <p>As the reality sets in that he is not the pill bug that he once believed himself to be, Phil's identity dissolves into a miasma of intense depersonalization.</p><button id="dissolve">WHAT IS SELF?</button>
-  <br>
-  <br>
-  <img src="img/phil.png" width=200px id="phildissolve"><br>
-
+  <button id="nicetomeetyou">Nice to meet you!</button>
 </div>
 
-<div id="philupdiv">
-  <p>Awakening from a fugue state, Phil begins to search desperately for some person or place upon which to anchor his identity. He looks left...</p>
-  <button id="philupeffect">Hello? Authentic connection?</button>
+
+
+
+<div id="pillapproachdiv">
+  <p id="philhears">One day, Phil hears something approaching.</p> 
+  <button id="whoisthat">Hello? Who's there?</button>
+  <img src="img/philreversed.png" width=200px id="phil3">
+  
+  <img src="img/phil.png" width=200px id="phil4">
+  <img src="img/wordbubble.png" align=center width=200px id="wordbubble">
+  <img src="img/pill.png" width=200px id="pill"><br>
+  <button id="but">But...?</button>
+</div>
+
+<div id="phildissolvediv">
+  <img src="img/phil.png" width=200px id="phildissolve">
+  <p id="miasma">As the reality sets in that he is not the pill bug that he once believed himself to be, Phil's identity dissolves into a miasma of intense depersonalization.</p><button id="whoami">WHO AM I EVEN?</button>
+</div>
+
+<div id="philleftdiv">
+  <img src="img/phil.png" width=200px id="philleft">
+  <p id="fugue">Awakening from a fugue state, Phil begins to search desperately for some person or place upon which to anchor his identity. 
+    <br>
+    He looks left...</p>
+    <br>
+  <button id="phillooksleftbutton">Hello? Authentic connection?</button>
   <br>
-  <img src="img/phil.png" width=200px id="philup">
+  
+</div>
 
-
-  <div id="phildowndiv">
+  <div id="philrightdiv">
     <p>....And he looks right.</p>
-    <button id="phildowneffect">Maybe there is something greater than myself as an individual over here to the right.</button> <img src="img/phil.png" width=200px id="phildowneffect">
+    <img src="img/philreversed.png" width=200px id="philright">
+    <br>
+    <button id="philrightbutton">Maybe there is something greater than myself as an individual over here to the right.</button> 
     <br>
 
 
   </div>
 
   <div id="philgivesupdiv">
-    <p>Phil starts to give in to his feelings of unreality.</p><img src="img/phil.png" width=200px id="philgivesup">
+    <p>Phil starts to give in to his feelings of unreality.</p>
+    <img src="img/philupsidedown.png" width=200px id="philgivesup">
     <br>
     <br>
     <button id="philgivesupeffect">Don't give up, Phil!</button>
@@ -58,33 +80,38 @@
 
   <div id="princessappearsdiv">
     <p>Just when all hope seems lost, a beautiful princess appears!</p>
+    <img src="img/belleappears.png" id="princessappears">
+  </br>
     <button id="helloprincesseffect">Hello, World!
     </button>
-    <br>
-    <img src="img/belleappears.png" id="princessappears"><button id="princessappearseffect">
-    <br>
-    What's this beautiful thing on the floor?</button>
-    <br>
-    <br>
-    <p>Picking up the colorful pill bug from the floor, the princess admires it inquisitively.</p>
+    </div>
+    
+  <div id="princesslooksdowndiv">
+    <p>The princess notices a colorful pill resting at her feet.</p> 
+
+    <img src="img/belle.png"id="princesslooksdown">
+<br>
+     <button id="princesslooksdownbutton">Pick up the pill.
+     </button>
 
 
   </div>
 
   <div id="princesstakespilldiv">
-    <img src="img/bellehold.png" id="princesstakespill">
-
-    <br>
-    <button id="princesstakespilleffect">Surely I should take this lovely pill?</button>
+    
+   <p id="takepillid">
+   Already looking forward to the festive ball that she will be attending that evening, the princess decides to ingest the colorful pill which she holds.</p>
+   <br><img src="img/belleappears.png"
+      id="princesstakespill"><br>
+    <button id="princesstakespillbutton">Eat the Phill.</button>
   </div>
 
-  <div id="princesseatsdiv">
-    <p>Already looking forward to the festive ball that she will be attending that evening, the princess decides to ingest the colorful pill which she holds.</p><img src="img/belleappears.png"
-      id="princesseats"><br>
-    <button id="eatphil">Eat the Phill.  </div>
-<br>
-  <div id="princessparties">
-    <img src="img/bellraves" id="princessparty"><p>The princess has a great time at the ball.</p><br>
+  <div id="princesspartiesdiv">
+    <img src="img/belleraves.gif" id="princessparties"><p id="princesspartiesid">The princess has a great time at the ball.</p> </div><br>
     <link rel="stylesheet" type="text/css" href="phil.css">
 <script src="phil.js"></script>
-  </div>
+ 
+</body>
+</html>
+
+

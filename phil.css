@@ -2,88 +2,142 @@
 /*#phil, #phil2, #pill, #wordbubble, #philup, #phildown, #phildissolve, #philgivesup{
   display: none;
 }*/
+#seconddiv{
+  display:none
+}
+#nicetomeetyou{
+  display:none;
+}
+#pillapproach{
+  display: none;
+}
+#philhears{
+  display: none;
+}
+#whoisthat{
+  display: none;}
+
 #pillappeardiv{
   display: none
-};
+}
 #phildissolvediv{
   display: none
-};
-#philupdiv{
+}
+#philleftdiv{
   display: none
-};
-#phildowndiv{
+}
+#whoami{
   display: none
-};
+}
+#philrightdiv{
+  display: none
+}
+#philmeetsbug{
+  display:none
+}
 #philgivesupdiv{
   display: none
-};
+}
 #princessappearsdiv{
   display: none
-};
+}
 #princesseatsdiv{
   display: none
-};
+}
 #princesspartiesdiv{
   display: none
-};
+}
 #but {
   display: none
-};
+}
+#iamphil{
+  display:none
+}
 
 #phil {display: none
 }
 
 #pill {
-  display: none;
+  display: none
 }
 #whoisthat {
   display: none
 }
 #phil2 {
-  display: none;
+  display: none
 }
+#phil3 {
+  display: none
+}
+#phil4 {
+  display: none
+}
+
 
 #phildissolve {
-  display: none;
+  display: none
 }
-#dissolve{
-  display: none;
+#dissolve {
+  display: none
 }
-#philup {
-  display: none;
+#philleft {
+  display: none
 }
-#phildown {
-  display: none;
+#philright {
+  display: none
 }
 #wordbubble {
+  display: none
+}
+#phillrightbutton {
   display: none;
 }
-
 #philgivesup {
   display:none
 }
 #philgivesupeffect {
-  transform: rotate(180deg);
+  display:none;
 }
+/*transform: rotate(180deg);*/
 #princessappearseffect {
+  display:none
+}
+#miasma {
+  display:none
+}
+#fugue {
   display:none
 }
 #princessappears {
   display:none
 }
-#princesstakespill{display:none}
-
+#princesstakespill{
+  display:none}
+  
+#takepillid{
+  display:none;
+}
+#princesstakespilldiv
+{display: none}
 #princesspicks {
   display:none   
 }
 #princesspickseffect{
   display:none
 }
-
-#princesseats {
+#princesslooksdown{
+  display: none
+}
+#princesslooksdowndiv{
+  display: none
+}
+#princesslooksdownbutton{
+  display: none
+}
+#takepillid {
   display:none
 }
 
-#princessparty {
+#princessparties{
   display:none
 }
